@@ -1,0 +1,7 @@
+[{
+  "model": "greenhouse.point",
+  "pk": 1,
+  "fields": {
+    "point_id": "PNT-1"
+  }
+}]

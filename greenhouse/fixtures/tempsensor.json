@@ -1,0 +1,501 @@
+[{
+  "model": "greenhouse.tempsensor",
+  "pk": 1,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 24,
+    "recorded_time": "11:01:24",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 2,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 2,
+    "recorded_time": "11:02:01",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 3,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 41,
+    "recorded_time": "11:03:06",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 4,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 7,
+    "recorded_time": "11:04:36",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 5,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 13,
+    "recorded_time": "11:05:48",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 6,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 35,
+    "recorded_time": "11:06:51",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 7,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 21,
+    "recorded_time": "11:20:49",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 8,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 18,
+    "recorded_time": "11:33:43",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 9,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 28,
+    "recorded_time": "11:04:03",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 10,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 20,
+    "recorded_time": "11:03:20",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 11,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 7,
+    "recorded_time": "11:06:52",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 12,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 0,
+    "recorded_time": "11:05:36",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 13,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 39,
+    "recorded_time": "11:48:12",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 14,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 25,
+    "recorded_time": "11:33:05",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 15,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 8,
+    "recorded_time": "11:32:14",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 16,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 7,
+    "recorded_time": "11:35:54",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 17,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 0,
+    "recorded_time": "11:41:56",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 18,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 33,
+    "recorded_time": "11:06:12",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 19,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 24,
+    "recorded_time": "11:22:05",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 20,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 32,
+    "recorded_time": "11:32:22",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 21,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 14,
+    "recorded_time": "11:26:49",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 22,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 26,
+    "recorded_time": "11:34:48",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 23,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 32,
+    "recorded_time": "11:48:52",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 24,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 1,
+    "recorded_time": "11:49:52",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 25,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 47,
+    "recorded_time": "11:18:20",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 26,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 1,
+    "recorded_time": "11:26:32",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 27,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 9,
+    "recorded_time": "11:46:36",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 28,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 2,
+    "recorded_time": "11:07:29",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 29,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 15,
+    "recorded_time": "11:26:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 30,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 14,
+    "recorded_time": "11:05:07",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 31,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 20,
+    "recorded_time": "11:39:04",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 32,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 33,
+    "recorded_time": "11:14:48",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 33,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 12,
+    "recorded_time": "11:29:44",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 34,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 24,
+    "recorded_time": "11:44:10",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 35,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 16,
+    "recorded_time": "11:11:39",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 36,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 17,
+    "recorded_time": "11:21:28",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 37,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 14,
+    "recorded_time": "11:14:56",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 38,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 39,
+    "recorded_time": "11:08:47",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 39,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 47,
+    "recorded_time": "11:20:43",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 40,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 14,
+    "recorded_time": "11:23:55",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 41,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 38,
+    "recorded_time": "11:38:31",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 42,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 17,
+    "recorded_time": "11:09:45",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 43,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 4,
+    "recorded_time": "11:17:36",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 44,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 18,
+    "recorded_time": "11:16:40",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 45,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 42,
+    "recorded_time": "11:18:21",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 46,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 2,
+    "recorded_time": "11:14:35",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 47,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 34,
+    "recorded_time": "11:35:43",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 48,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 39,
+    "recorded_time": "11:19:04",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 49,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 14,
+    "recorded_time": "11:47:11",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.tempsensor",
+  "pk": 50,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "temp_value": 29,
+    "recorded_time": "11:26:01",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}]

@@ -1,0 +1,241 @@
+[{
+  "model": "greenhouse.ventilation",
+  "pk": 1,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 2,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 3,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 4,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 5,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 6,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 7,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 8,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 9,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 10,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 11,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 12,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 13,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 14,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 15,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 16,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 17,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 18,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 19,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 20,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 21,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 22,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 23,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 24,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 25,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 26,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 27,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 28,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": false,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 29,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.ventilation",
+  "pk": 30,
+  "fields": {
+    "fan_id": "FAN-1",
+    "fan_status": true,
+    "point": 1
+  }
+}]

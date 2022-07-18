@@ -1,0 +1,501 @@
+[{
+  "model": "greenhouse.luxsensor",
+  "pk": 1,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 86646.27,
+    "recorded_time": "11:17:00",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 2,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 93207.64,
+    "recorded_time": "11:46:55",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 3,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 2989.44,
+    "recorded_time": "11:34:48",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 4,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 56452.96,
+    "recorded_time": "11:28:02",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 5,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 76104.51,
+    "recorded_time": "11:20:21",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 6,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 12295.2,
+    "recorded_time": "11:40:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 7,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 20843.13,
+    "recorded_time": "11:48:35",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 8,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 52818.18,
+    "recorded_time": "11:48:54",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 9,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 4402.49,
+    "recorded_time": "11:37:00",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 10,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 9188.99,
+    "recorded_time": "11:19:09",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 11,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 96187.56,
+    "recorded_time": "11:22:44",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 12,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 57780.51,
+    "recorded_time": "11:44:54",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 13,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 76827.43,
+    "recorded_time": "11:45:26",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 14,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 55595.55,
+    "recorded_time": "11:27:17",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 15,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 58550.82,
+    "recorded_time": "11:08:41",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 16,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 40033.07,
+    "recorded_time": "11:24:59",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 17,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 16199.82,
+    "recorded_time": "11:21:47",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 18,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 39320.25,
+    "recorded_time": "11:23:49",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 19,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 51838.13,
+    "recorded_time": "11:04:14",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 20,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 71171.51,
+    "recorded_time": "11:00:27",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 21,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 1979.97,
+    "recorded_time": "11:21:09",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 22,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 47770.08,
+    "recorded_time": "11:37:31",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 23,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 68001.5,
+    "recorded_time": "11:02:03",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 24,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 66957.88,
+    "recorded_time": "11:18:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 25,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 99932.91,
+    "recorded_time": "11:02:44",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 26,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 11653.01,
+    "recorded_time": "11:02:52",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 27,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 86874.47,
+    "recorded_time": "11:04:39",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 28,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 5316.74,
+    "recorded_time": "11:37:43",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 29,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 4578.7,
+    "recorded_time": "11:43:47",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 30,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 21203.52,
+    "recorded_time": "11:21:00",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 31,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 87256.14,
+    "recorded_time": "11:44:42",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 32,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 18489.2,
+    "recorded_time": "11:18:31",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 33,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 84445.81,
+    "recorded_time": "11:37:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 34,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 66561.3,
+    "recorded_time": "11:39:03",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 35,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 24141.97,
+    "recorded_time": "11:40:25",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 36,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 93602.58,
+    "recorded_time": "11:38:03",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 37,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 52346.49,
+    "recorded_time": "11:45:23",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 38,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 7212.44,
+    "recorded_time": "11:42:29",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 39,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 12952.88,
+    "recorded_time": "11:37:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 40,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 48137.22,
+    "recorded_time": "11:47:34",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 41,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 21951.23,
+    "recorded_time": "11:06:38",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 42,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 52320.76,
+    "recorded_time": "11:48:06",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 43,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 81094.34,
+    "recorded_time": "11:24:07",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 44,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 83410.74,
+    "recorded_time": "11:43:55",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 45,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 21872.07,
+    "recorded_time": "11:32:10",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 46,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 10792.74,
+    "recorded_time": "11:29:15",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 47,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 70345.56,
+    "recorded_time": "11:19:36",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 48,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 64294.15,
+    "recorded_time": "11:18:07",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 49,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 64931.81,
+    "recorded_time": "11:02:40",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.luxsensor",
+  "pk": 50,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "temp_value": 30496.18,
+    "recorded_time": "11:36:07",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}]

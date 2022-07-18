@@ -1,0 +1,501 @@
+[{
+  "model": "greenhouse.humdsensor",
+  "pk": 1,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 74,
+    "recorded_time": "11:10:16",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 2,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 71,
+    "recorded_time": "11:47:38",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 3,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 47,
+    "recorded_time": "11:30:30",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 4,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 43,
+    "recorded_time": "11:47:46",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 5,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 60,
+    "recorded_time": "11:00:25",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 6,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 35,
+    "recorded_time": "11:13:59",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 7,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 47,
+    "recorded_time": "11:01:53",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 8,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 27,
+    "recorded_time": "11:02:23",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 9,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 49,
+    "recorded_time": "11:12:17",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 10,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 79,
+    "recorded_time": "11:42:58",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 11,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 60,
+    "recorded_time": "11:40:01",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 12,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 77,
+    "recorded_time": "11:49:15",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 13,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 28,
+    "recorded_time": "11:49:57",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 14,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 21,
+    "recorded_time": "11:21:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 15,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 51,
+    "recorded_time": "11:29:51",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 16,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 67,
+    "recorded_time": "11:13:08",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 17,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 51,
+    "recorded_time": "11:21:03",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 18,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 33,
+    "recorded_time": "11:32:39",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 19,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 77,
+    "recorded_time": "11:35:47",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 20,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 64,
+    "recorded_time": "11:12:55",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 21,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 66,
+    "recorded_time": "11:03:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 22,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 73,
+    "recorded_time": "11:01:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 23,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 38,
+    "recorded_time": "11:19:19",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 24,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 40,
+    "recorded_time": "11:47:33",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 25,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 21,
+    "recorded_time": "11:47:18",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 26,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 46,
+    "recorded_time": "11:24:55",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 27,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 28,
+    "recorded_time": "11:48:27",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 28,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 42,
+    "recorded_time": "11:30:23",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 29,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 35,
+    "recorded_time": "11:20:45",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 30,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 26,
+    "recorded_time": "11:45:58",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 31,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 35,
+    "recorded_time": "11:31:28",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 32,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 79,
+    "recorded_time": "11:13:07",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 33,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 75,
+    "recorded_time": "11:47:02",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 34,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 21,
+    "recorded_time": "11:39:22",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 35,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 75,
+    "recorded_time": "11:36:30",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 36,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 79,
+    "recorded_time": "11:37:21",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 37,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 48,
+    "recorded_time": "11:10:01",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 38,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 70,
+    "recorded_time": "11:30:20",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 39,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 74,
+    "recorded_time": "11:37:11",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 40,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 62,
+    "recorded_time": "11:17:49",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 41,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 67,
+    "recorded_time": "11:40:39",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 42,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 67,
+    "recorded_time": "11:02:00",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 43,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 25,
+    "recorded_time": "11:02:21",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 44,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 37,
+    "recorded_time": "11:49:58",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 45,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 42,
+    "recorded_time": "11:34:24",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 46,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 63,
+    "recorded_time": "11:36:14",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 47,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 36,
+    "recorded_time": "11:18:21",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 48,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 29,
+    "recorded_time": "11:37:37",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 49,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 67,
+    "recorded_time": "11:08:41",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.humdsensor",
+  "pk": 50,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "humd_value": 68,
+    "recorded_time": "11:31:23",
+    "date_time": "7/18/2021",
+    "point": 1
+  }
+}]
