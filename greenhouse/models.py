@@ -12,7 +12,7 @@ class TempSensor(models.Model):
     temp_value = models.IntegerField()
     recorded_time = models.TimeField(auto_now_add=True)
     date_time = models.DateField(auto_now_add=True)
-    point = models.OneToOneField(Point, on_delete=models.DO_NOTHING)
+    point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return f"{self.sensor_id}, record {self.pk}"
@@ -22,7 +22,7 @@ class HumdSensor(models.Model):
     humd_value = models.IntegerField()
     recorded_time = models.TimeField(auto_now_add=True)
     date_time = models.DateField(auto_now_add=True)
-    point = models.OneToOneField(Point, on_delete=models.DO_NOTHING)
+    point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return f"{self.sensor_id}, record {self.pk}"
@@ -32,7 +32,7 @@ class LuxSensor(models.Model):
     lux_value = models.IntegerField()
     recorded_time = models.TimeField(auto_now_add=True)
     date_time = models.DateField(auto_now_add=True)
-    point = models.OneToOneField(Point, on_delete=models.DO_NOTHING)
+    point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return f"{self.sensor_id}, record {self.pk}"
@@ -40,7 +40,7 @@ class LuxSensor(models.Model):
 class Ventilation(models.Model):
     fan_id = models.CharField(max_length=5) # e.g : FAN-1
     fan_status = models.BooleanField()
-    point = models.OneToOneField(Point, on_delete=models.DO_NOTHING)
+    point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return f"{self.fan_id}, record {self.pk}"
@@ -48,7 +48,7 @@ class Ventilation(models.Model):
 class Irrigation(models.Model):
     pump_id = models.CharField(max_length=6) # e.g : WPMP-1
     pump_status = models.BooleanField()
-    point = models.OneToOneField(Point, on_delete=models.DO_NOTHING)
+    point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return f"{self.pump_id}, record {self.pk}"
