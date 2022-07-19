@@ -3,9 +3,9 @@
   "pk": 1,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 74,
-    "recorded_time": "11:10:16",
-    "date_time": "7/18/2021",
+    "humd_value": 72,
+    "recorded_time": "11:29:13",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -13,9 +13,9 @@
   "pk": 2,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 71,
-    "recorded_time": "11:47:38",
-    "date_time": "7/18/2021",
+    "humd_value": 78,
+    "recorded_time": "11:43:03",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -23,9 +23,9 @@
   "pk": 3,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 47,
-    "recorded_time": "11:30:30",
-    "date_time": "7/18/2021",
+    "humd_value": 41,
+    "recorded_time": "11:00:44",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -33,9 +33,9 @@
   "pk": 4,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 43,
-    "recorded_time": "11:47:46",
-    "date_time": "7/18/2021",
+    "humd_value": 75,
+    "recorded_time": "11:44:03",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -43,9 +43,9 @@
   "pk": 5,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 60,
-    "recorded_time": "11:00:25",
-    "date_time": "7/18/2021",
+    "humd_value": 25,
+    "recorded_time": "11:16:33",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -53,9 +53,9 @@
   "pk": 6,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 35,
-    "recorded_time": "11:13:59",
-    "date_time": "7/18/2021",
+    "humd_value": 46,
+    "recorded_time": "11:35:36",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -63,9 +63,9 @@
   "pk": 7,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 47,
-    "recorded_time": "11:01:53",
-    "date_time": "7/18/2021",
+    "humd_value": 51,
+    "recorded_time": "11:19:47",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -73,9 +73,9 @@
   "pk": 8,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 27,
-    "recorded_time": "11:02:23",
-    "date_time": "7/18/2021",
+    "humd_value": 34,
+    "recorded_time": "11:32:47",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -83,9 +83,9 @@
   "pk": 9,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 49,
-    "recorded_time": "11:12:17",
-    "date_time": "7/18/2021",
+    "humd_value": 46,
+    "recorded_time": "11:41:12",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -93,9 +93,9 @@
   "pk": 10,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 79,
-    "recorded_time": "11:42:58",
-    "date_time": "7/18/2021",
+    "humd_value": 78,
+    "recorded_time": "11:17:34",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -103,9 +103,9 @@
   "pk": 11,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 60,
-    "recorded_time": "11:40:01",
-    "date_time": "7/18/2021",
+    "humd_value": 27,
+    "recorded_time": "11:01:43",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -114,8 +114,8 @@
   "fields": {
     "sensor_id": "HUM-1",
     "humd_value": 77,
-    "recorded_time": "11:49:15",
-    "date_time": "7/18/2021",
+    "recorded_time": "11:24:47",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -123,9 +123,9 @@
   "pk": 13,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 28,
-    "recorded_time": "11:49:57",
-    "date_time": "7/18/2021",
+    "humd_value": 68,
+    "recorded_time": "11:24:24",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -133,9 +133,9 @@
   "pk": 14,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 21,
-    "recorded_time": "11:21:33",
-    "date_time": "7/18/2021",
+    "humd_value": 69,
+    "recorded_time": "11:13:23",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -143,9 +143,9 @@
   "pk": 15,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 51,
-    "recorded_time": "11:29:51",
-    "date_time": "7/18/2021",
+    "humd_value": 42,
+    "recorded_time": "11:27:52",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -153,9 +153,9 @@
   "pk": 16,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 67,
-    "recorded_time": "11:13:08",
-    "date_time": "7/18/2021",
+    "humd_value": 28,
+    "recorded_time": "11:06:35",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -163,9 +163,9 @@
   "pk": 17,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 51,
-    "recorded_time": "11:21:03",
-    "date_time": "7/18/2021",
+    "humd_value": 21,
+    "recorded_time": "11:16:03",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -173,9 +173,9 @@
   "pk": 18,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 33,
-    "recorded_time": "11:32:39",
-    "date_time": "7/18/2021",
+    "humd_value": 61,
+    "recorded_time": "11:28:55",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -183,9 +183,9 @@
   "pk": 19,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 77,
-    "recorded_time": "11:35:47",
-    "date_time": "7/18/2021",
+    "humd_value": 60,
+    "recorded_time": "11:27:28",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -193,9 +193,9 @@
   "pk": 20,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 64,
-    "recorded_time": "11:12:55",
-    "date_time": "7/18/2021",
+    "humd_value": 56,
+    "recorded_time": "11:43:53",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -203,9 +203,9 @@
   "pk": 21,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 66,
-    "recorded_time": "11:03:33",
-    "date_time": "7/18/2021",
+    "humd_value": 32,
+    "recorded_time": "11:17:14",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -213,9 +213,9 @@
   "pk": 22,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 73,
-    "recorded_time": "11:01:33",
-    "date_time": "7/18/2021",
+    "humd_value": 74,
+    "recorded_time": "11:42:30",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -223,9 +223,9 @@
   "pk": 23,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 38,
-    "recorded_time": "11:19:19",
-    "date_time": "7/18/2021",
+    "humd_value": 78,
+    "recorded_time": "11:09:23",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -233,9 +233,9 @@
   "pk": 24,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 40,
-    "recorded_time": "11:47:33",
-    "date_time": "7/18/2021",
+    "humd_value": 41,
+    "recorded_time": "11:09:37",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -244,8 +244,8 @@
   "fields": {
     "sensor_id": "HUM-1",
     "humd_value": 21,
-    "recorded_time": "11:47:18",
-    "date_time": "7/18/2021",
+    "recorded_time": "11:03:57",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -253,9 +253,9 @@
   "pk": 26,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 46,
-    "recorded_time": "11:24:55",
-    "date_time": "7/18/2021",
+    "humd_value": 24,
+    "recorded_time": "11:32:00",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -263,9 +263,9 @@
   "pk": 27,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 28,
-    "recorded_time": "11:48:27",
-    "date_time": "7/18/2021",
+    "humd_value": 76,
+    "recorded_time": "11:42:47",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -273,9 +273,9 @@
   "pk": 28,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 42,
-    "recorded_time": "11:30:23",
-    "date_time": "7/18/2021",
+    "humd_value": 49,
+    "recorded_time": "11:44:32",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -283,9 +283,9 @@
   "pk": 29,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 35,
-    "recorded_time": "11:20:45",
-    "date_time": "7/18/2021",
+    "humd_value": 25,
+    "recorded_time": "11:31:56",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -293,9 +293,9 @@
   "pk": 30,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 26,
-    "recorded_time": "11:45:58",
-    "date_time": "7/18/2021",
+    "humd_value": 52,
+    "recorded_time": "11:34:39",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -303,9 +303,9 @@
   "pk": 31,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 35,
-    "recorded_time": "11:31:28",
-    "date_time": "7/18/2021",
+    "humd_value": 64,
+    "recorded_time": "11:37:07",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -313,9 +313,9 @@
   "pk": 32,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 79,
-    "recorded_time": "11:13:07",
-    "date_time": "7/18/2021",
+    "humd_value": 54,
+    "recorded_time": "11:08:52",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -323,9 +323,9 @@
   "pk": 33,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 75,
-    "recorded_time": "11:47:02",
-    "date_time": "7/18/2021",
+    "humd_value": 66,
+    "recorded_time": "11:43:13",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -333,9 +333,9 @@
   "pk": 34,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 21,
-    "recorded_time": "11:39:22",
-    "date_time": "7/18/2021",
+    "humd_value": 45,
+    "recorded_time": "11:05:42",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -343,9 +343,9 @@
   "pk": 35,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 75,
-    "recorded_time": "11:36:30",
-    "date_time": "7/18/2021",
+    "humd_value": 39,
+    "recorded_time": "11:31:09",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -353,9 +353,9 @@
   "pk": 36,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 79,
-    "recorded_time": "11:37:21",
-    "date_time": "7/18/2021",
+    "humd_value": 58,
+    "recorded_time": "11:46:11",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -363,9 +363,9 @@
   "pk": 37,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 48,
-    "recorded_time": "11:10:01",
-    "date_time": "7/18/2021",
+    "humd_value": 57,
+    "recorded_time": "11:06:25",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -373,9 +373,9 @@
   "pk": 38,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 70,
-    "recorded_time": "11:30:20",
-    "date_time": "7/18/2021",
+    "humd_value": 31,
+    "recorded_time": "11:47:40",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -383,9 +383,9 @@
   "pk": 39,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 74,
-    "recorded_time": "11:37:11",
-    "date_time": "7/18/2021",
+    "humd_value": 77,
+    "recorded_time": "11:08:17",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -393,9 +393,9 @@
   "pk": 40,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 62,
-    "recorded_time": "11:17:49",
-    "date_time": "7/18/2021",
+    "humd_value": 45,
+    "recorded_time": "11:23:18",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -403,9 +403,9 @@
   "pk": 41,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 67,
-    "recorded_time": "11:40:39",
-    "date_time": "7/18/2021",
+    "humd_value": 52,
+    "recorded_time": "11:00:50",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -413,9 +413,9 @@
   "pk": 42,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 67,
-    "recorded_time": "11:02:00",
-    "date_time": "7/18/2021",
+    "humd_value": 40,
+    "recorded_time": "11:38:17",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -423,9 +423,9 @@
   "pk": 43,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 25,
-    "recorded_time": "11:02:21",
-    "date_time": "7/18/2021",
+    "humd_value": 24,
+    "recorded_time": "11:43:36",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -433,9 +433,9 @@
   "pk": 44,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 37,
-    "recorded_time": "11:49:58",
-    "date_time": "7/18/2021",
+    "humd_value": 24,
+    "recorded_time": "11:42:30",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -443,9 +443,9 @@
   "pk": 45,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 42,
-    "recorded_time": "11:34:24",
-    "date_time": "7/18/2021",
+    "humd_value": 77,
+    "recorded_time": "11:30:34",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -453,9 +453,9 @@
   "pk": 46,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 63,
-    "recorded_time": "11:36:14",
-    "date_time": "7/18/2021",
+    "humd_value": 40,
+    "recorded_time": "11:23:42",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -463,9 +463,9 @@
   "pk": 47,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 36,
-    "recorded_time": "11:18:21",
-    "date_time": "7/18/2021",
+    "humd_value": 59,
+    "recorded_time": "11:14:50",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -473,9 +473,9 @@
   "pk": 48,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 29,
-    "recorded_time": "11:37:37",
-    "date_time": "7/18/2021",
+    "humd_value": 66,
+    "recorded_time": "11:08:56",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -483,9 +483,9 @@
   "pk": 49,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 67,
-    "recorded_time": "11:08:41",
-    "date_time": "7/18/2021",
+    "humd_value": 45,
+    "recorded_time": "11:08:20",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -493,9 +493,9 @@
   "pk": 50,
   "fields": {
     "sensor_id": "HUM-1",
-    "humd_value": 68,
-    "recorded_time": "11:31:23",
-    "date_time": "7/18/2021",
+    "humd_value": 56,
+    "recorded_time": "11:19:16",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }]

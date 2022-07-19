@@ -3,9 +3,9 @@
   "pk": 1,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 86646.27,
-    "recorded_time": "11:17:00",
-    "date_time": "7/18/2021",
+    "lux_value": 74560.64,
+    "recorded_time": "11:27:07",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -13,9 +13,9 @@
   "pk": 2,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 93207.64,
-    "recorded_time": "11:46:55",
-    "date_time": "7/18/2021",
+    "lux_value": 28238.15,
+    "recorded_time": "11:49:23",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -23,9 +23,9 @@
   "pk": 3,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 2989.44,
-    "recorded_time": "11:34:48",
-    "date_time": "7/18/2021",
+    "lux_value": 82472.54,
+    "recorded_time": "11:41:28",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -33,9 +33,9 @@
   "pk": 4,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 56452.96,
-    "recorded_time": "11:28:02",
-    "date_time": "7/18/2021",
+    "lux_value": 89790.52,
+    "recorded_time": "11:05:41",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -43,9 +43,9 @@
   "pk": 5,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 76104.51,
-    "recorded_time": "11:20:21",
-    "date_time": "7/18/2021",
+    "lux_value": 87907.29,
+    "recorded_time": "11:49:54",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -53,9 +53,9 @@
   "pk": 6,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 12295.2,
-    "recorded_time": "11:40:33",
-    "date_time": "7/18/2021",
+    "lux_value": 46379.82,
+    "recorded_time": "11:17:42",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -63,9 +63,9 @@
   "pk": 7,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 20843.13,
-    "recorded_time": "11:48:35",
-    "date_time": "7/18/2021",
+    "lux_value": 42031.02,
+    "recorded_time": "11:20:03",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -73,9 +73,9 @@
   "pk": 8,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 52818.18,
-    "recorded_time": "11:48:54",
-    "date_time": "7/18/2021",
+    "lux_value": 71206.42,
+    "recorded_time": "11:06:24",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -83,9 +83,9 @@
   "pk": 9,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 4402.49,
-    "recorded_time": "11:37:00",
-    "date_time": "7/18/2021",
+    "lux_value": 69219.74,
+    "recorded_time": "11:05:03",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -93,9 +93,9 @@
   "pk": 10,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 9188.99,
-    "recorded_time": "11:19:09",
-    "date_time": "7/18/2021",
+    "lux_value": 815.45,
+    "recorded_time": "11:31:25",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -103,9 +103,9 @@
   "pk": 11,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 96187.56,
-    "recorded_time": "11:22:44",
-    "date_time": "7/18/2021",
+    "lux_value": 80249.07,
+    "recorded_time": "11:01:12",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -113,9 +113,9 @@
   "pk": 12,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 57780.51,
-    "recorded_time": "11:44:54",
-    "date_time": "7/18/2021",
+    "lux_value": 98370.66,
+    "recorded_time": "11:39:44",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -123,9 +123,9 @@
   "pk": 13,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 76827.43,
-    "recorded_time": "11:45:26",
-    "date_time": "7/18/2021",
+    "lux_value": 36192.24,
+    "recorded_time": "11:45:33",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -133,9 +133,9 @@
   "pk": 14,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 55595.55,
-    "recorded_time": "11:27:17",
-    "date_time": "7/18/2021",
+    "lux_value": 84939.81,
+    "recorded_time": "11:33:22",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -143,9 +143,9 @@
   "pk": 15,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 58550.82,
-    "recorded_time": "11:08:41",
-    "date_time": "7/18/2021",
+    "lux_value": 52192.73,
+    "recorded_time": "11:37:50",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -153,9 +153,9 @@
   "pk": 16,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 40033.07,
-    "recorded_time": "11:24:59",
-    "date_time": "7/18/2021",
+    "lux_value": 73533.02,
+    "recorded_time": "11:00:09",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -163,9 +163,9 @@
   "pk": 17,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 16199.82,
-    "recorded_time": "11:21:47",
-    "date_time": "7/18/2021",
+    "lux_value": 79605.48,
+    "recorded_time": "11:24:11",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -173,9 +173,9 @@
   "pk": 18,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 39320.25,
-    "recorded_time": "11:23:49",
-    "date_time": "7/18/2021",
+    "lux_value": 91875.14,
+    "recorded_time": "11:40:54",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -183,9 +183,9 @@
   "pk": 19,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 51838.13,
-    "recorded_time": "11:04:14",
-    "date_time": "7/18/2021",
+    "lux_value": 60824.98,
+    "recorded_time": "11:37:35",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -193,9 +193,9 @@
   "pk": 20,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 71171.51,
-    "recorded_time": "11:00:27",
-    "date_time": "7/18/2021",
+    "lux_value": 51967.23,
+    "recorded_time": "11:13:53",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -203,9 +203,9 @@
   "pk": 21,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 1979.97,
-    "recorded_time": "11:21:09",
-    "date_time": "7/18/2021",
+    "lux_value": 39921.8,
+    "recorded_time": "11:08:55",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -213,9 +213,9 @@
   "pk": 22,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 47770.08,
-    "recorded_time": "11:37:31",
-    "date_time": "7/18/2021",
+    "lux_value": 65356.69,
+    "recorded_time": "11:48:57",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -223,9 +223,9 @@
   "pk": 23,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 68001.5,
-    "recorded_time": "11:02:03",
-    "date_time": "7/18/2021",
+    "lux_value": 84312.25,
+    "recorded_time": "11:02:44",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -233,9 +233,9 @@
   "pk": 24,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 66957.88,
-    "recorded_time": "11:18:33",
-    "date_time": "7/18/2021",
+    "lux_value": 85720.19,
+    "recorded_time": "11:12:52",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -243,9 +243,9 @@
   "pk": 25,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 99932.91,
-    "recorded_time": "11:02:44",
-    "date_time": "7/18/2021",
+    "lux_value": 37370.87,
+    "recorded_time": "11:42:21",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -253,9 +253,9 @@
   "pk": 26,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 11653.01,
-    "recorded_time": "11:02:52",
-    "date_time": "7/18/2021",
+    "lux_value": 62203.32,
+    "recorded_time": "11:47:18",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -263,9 +263,9 @@
   "pk": 27,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 86874.47,
-    "recorded_time": "11:04:39",
-    "date_time": "7/18/2021",
+    "lux_value": 49650.3,
+    "recorded_time": "11:28:38",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -273,9 +273,9 @@
   "pk": 28,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 5316.74,
-    "recorded_time": "11:37:43",
-    "date_time": "7/18/2021",
+    "lux_value": 83173.57,
+    "recorded_time": "11:15:35",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -283,9 +283,9 @@
   "pk": 29,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 4578.7,
-    "recorded_time": "11:43:47",
-    "date_time": "7/18/2021",
+    "lux_value": 86912.62,
+    "recorded_time": "11:48:12",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -293,9 +293,9 @@
   "pk": 30,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 21203.52,
-    "recorded_time": "11:21:00",
-    "date_time": "7/18/2021",
+    "lux_value": 71188.1,
+    "recorded_time": "11:41:59",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -303,9 +303,9 @@
   "pk": 31,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 87256.14,
-    "recorded_time": "11:44:42",
-    "date_time": "7/18/2021",
+    "lux_value": 84318.87,
+    "recorded_time": "11:50:00",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -313,9 +313,9 @@
   "pk": 32,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 18489.2,
-    "recorded_time": "11:18:31",
-    "date_time": "7/18/2021",
+    "lux_value": 91175.02,
+    "recorded_time": "11:33:01",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -323,9 +323,9 @@
   "pk": 33,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 84445.81,
-    "recorded_time": "11:37:33",
-    "date_time": "7/18/2021",
+    "lux_value": 79728.41,
+    "recorded_time": "11:15:06",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -333,9 +333,9 @@
   "pk": 34,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 66561.3,
-    "recorded_time": "11:39:03",
-    "date_time": "7/18/2021",
+    "lux_value": 72255.94,
+    "recorded_time": "11:11:45",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -343,9 +343,9 @@
   "pk": 35,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 24141.97,
-    "recorded_time": "11:40:25",
-    "date_time": "7/18/2021",
+    "lux_value": 25790.48,
+    "recorded_time": "11:21:49",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -353,9 +353,9 @@
   "pk": 36,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 93602.58,
-    "recorded_time": "11:38:03",
-    "date_time": "7/18/2021",
+    "lux_value": 6526.79,
+    "recorded_time": "11:26:25",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -363,9 +363,9 @@
   "pk": 37,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 52346.49,
-    "recorded_time": "11:45:23",
-    "date_time": "7/18/2021",
+    "lux_value": 57951.02,
+    "recorded_time": "11:47:07",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -373,9 +373,9 @@
   "pk": 38,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 7212.44,
-    "recorded_time": "11:42:29",
-    "date_time": "7/18/2021",
+    "lux_value": 32326.37,
+    "recorded_time": "11:16:25",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -383,9 +383,9 @@
   "pk": 39,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 12952.88,
-    "recorded_time": "11:37:33",
-    "date_time": "7/18/2021",
+    "lux_value": 5345.33,
+    "recorded_time": "11:27:17",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -393,9 +393,9 @@
   "pk": 40,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 48137.22,
-    "recorded_time": "11:47:34",
-    "date_time": "7/18/2021",
+    "lux_value": 18058.46,
+    "recorded_time": "11:28:04",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -403,9 +403,9 @@
   "pk": 41,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 21951.23,
-    "recorded_time": "11:06:38",
-    "date_time": "7/18/2021",
+    "lux_value": 87664.37,
+    "recorded_time": "11:36:10",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -413,9 +413,9 @@
   "pk": 42,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 52320.76,
-    "recorded_time": "11:48:06",
-    "date_time": "7/18/2021",
+    "lux_value": 82692.34,
+    "recorded_time": "11:03:34",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -423,9 +423,9 @@
   "pk": 43,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 81094.34,
-    "recorded_time": "11:24:07",
-    "date_time": "7/18/2021",
+    "lux_value": 49971.2,
+    "recorded_time": "11:49:21",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -433,9 +433,9 @@
   "pk": 44,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 83410.74,
-    "recorded_time": "11:43:55",
-    "date_time": "7/18/2021",
+    "lux_value": 12658.43,
+    "recorded_time": "11:00:09",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -443,9 +443,9 @@
   "pk": 45,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 21872.07,
-    "recorded_time": "11:32:10",
-    "date_time": "7/18/2021",
+    "lux_value": 10339.66,
+    "recorded_time": "11:16:22",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -453,9 +453,9 @@
   "pk": 46,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 10792.74,
-    "recorded_time": "11:29:15",
-    "date_time": "7/18/2021",
+    "lux_value": 57433.03,
+    "recorded_time": "11:11:03",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -463,9 +463,9 @@
   "pk": 47,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 70345.56,
-    "recorded_time": "11:19:36",
-    "date_time": "7/18/2021",
+    "lux_value": 4169.8,
+    "recorded_time": "11:16:28",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -473,9 +473,9 @@
   "pk": 48,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 64294.15,
-    "recorded_time": "11:18:07",
-    "date_time": "7/18/2021",
+    "lux_value": 41808.49,
+    "recorded_time": "11:30:47",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -483,9 +483,9 @@
   "pk": 49,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 64931.81,
-    "recorded_time": "11:02:40",
-    "date_time": "7/18/2021",
+    "lux_value": 92312.34,
+    "recorded_time": "11:07:01",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }, {
@@ -493,9 +493,9 @@
   "pk": 50,
   "fields": {
     "sensor_id": "LUX-1",
-    "temp_value": 30496.18,
-    "recorded_time": "11:36:07",
-    "date_time": "7/18/2021",
+    "lux_value": 64919.38,
+    "recorded_time": "11:30:35",
+    "date_time": "2021-07-18",
     "point": 1
   }
 }]
