@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 
 from rest_framework.authtoken.views import obtain_auth_token
+from account.views import LogoutAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', obtain_auth_token),
+    path('logout/', LogoutAPIView.as_view()),
     path('', include('greenhouse.urls')),
 ]
