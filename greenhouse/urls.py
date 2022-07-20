@@ -1,5 +1,6 @@
 from django.urls import path
-from . import views
+from .views import TempSensorView
 
 urlpatterns = [
+    path('tempSensor/', TempSensorView.as_view()),
 ]
