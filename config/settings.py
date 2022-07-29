@@ -37,13 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     'account.apps.AccountConfig',
     'greenhouse.apps.GreenhouseConfig',
 
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
+    
+    'channels',
+    'django_eventstream',
 ]
 
 MIDDLEWARE = [
@@ -88,6 +91,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
+ASGI_APPLICATION = 'config.asgi.application'
 
 
 # Database
@@ -150,3 +154,10 @@ CORS_ALLOW_ALL_ORIGINS = True
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:3000",
 # ]
+
+# CHANNEL_LAYERS = {
+#     "default": {
+#         "BACKEND": "channels.layers.InMemoryChannelLayer" # InMemoryChannelLayer is not recommended
+#                                                           # for production, use redis instead
+#     }
+# }
