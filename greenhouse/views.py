@@ -1,9 +1,9 @@
-from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 
-from .serializers import TempSensorSerializer, HumdSensorSerializer, LuxSensorSerializer, VentilationSerializer, IrrigationSerializer
+from .serializers import (TempSensorSerializer, HumdSensorSerializer, LuxSensorSerializer,
+ VentilationSerializer, IrrigationSerializer)
 from .models import TempSensor, HumdSensor, LuxSensor, Ventilation, Irrigation
 
 
@@ -24,15 +24,6 @@ class TempSensorView(APIView):
         qs = TempSensor.objects.all()
         serializer = TempSensorSerializer(qs, many=True)
         return Response(serializer.data)
-
-    # def post(self, request, *arg, **kwargs):
-    #     serializer = TempSensorSerializer(data=request.data)
-    #     if serializer.is_valid():
-    #         serializer.save()
-    #         return Response({'message': 'info added successfully!', 'data': serializer.data})
-    #
-    #     return Response({'message': serializer.errors})
-
 
 class HumdSensorView(APIView):
     def get(self, request, *arg, **kwargs):
