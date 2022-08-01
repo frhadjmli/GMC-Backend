@@ -51,7 +51,7 @@ class VentilationView(APIView):
 
         ventilation.fan_status = False if ventilation.fan_status == True else True
         ventilation.save()
-        return Response({'message': 'updated successfully!', 'pump_status': ventilation.fan_status})
+        return Response({'message': 'updated successfully!', 'fan_status': ventilation.fan_status})
 
 
 class IrrigationView(APIView):
