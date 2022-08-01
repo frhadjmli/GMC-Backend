@@ -1,3 +1,4 @@
+from django.shortcuts import get_object_or_404
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
@@ -45,9 +46,25 @@ class VentilationView(APIView):
         serializer = VentilationSerializer(qs, many=True)
         return Response(serializer.data)
 
+    def put(self, request, ventilation_id):
+        ventilation = get_object_or_404(Ventilation, id=ventilation_id)
+
+        ventilation.fan_status = False if ventilation.fan_status == True else True
+        ventilation.save()
+        return Response({'message': 'updated successfully!', 'pump_status': ventilation.fan_status})
+
 
 class IrrigationView(APIView):
     def get(self, request, *arg, **kwargs):
         qs = Irrigation.objects.all()
         serializer = IrrigationSerializer(qs, many=True)
         return Response(serializer.data)
+
+    def put(self, request, irrigation_id):
+        irrigation = get_object_or_404(Irrigation, id=irrigation_id)
+
+        irrigation.pump_status = False if irrigation.pump_status == True else True
+        irrigation.save()
+        return Response({'message': 'updated successfully!', 'pump_status': irrigation.pump_status})
+
+
