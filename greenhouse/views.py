@@ -204,12 +204,12 @@ class VentilationView(APIView):
 
         return Response(list(qs))
 
-    # def put(self, request, ventilation_id):
-    #     ventilation = get_object_or_404(Ventilation, id=ventilation_id)
-    #
-    #     ventilation.fan_status = False if ventilation.fan_status == True else True
-    #     ventilation.save()
-    #     return Response({'message': 'updated successfully!', 'fan_status': ventilation.fan_status})
+    def put(self, request, device_id):
+        ventilation = get_object_or_404(Device_value, device=device_id)
+
+        ventilation.status = False if ventilation.status == True else True
+        ventilation.save()
+        return Response({'message': 'updated successfully!', 'fan_status': ventilation.status})
 
 
 class IrrigationView(APIView):
@@ -222,9 +222,9 @@ class IrrigationView(APIView):
 
         return Response(list(qs))
 
-    # def put(self, request, irrigation_id):
-    #     irrigation = get_object_or_404(Irrigation, id=irrigation_id)
-    #
-    #     irrigation.pump_status = False if irrigation.pump_status == True else True
-    #     irrigation.save()
-    #     return Response({'message': 'updated successfully!', 'pump_status': irrigation.pump_status})
+    def put(self, request, device_id):
+        irrigation = get_object_or_404(Device_value, device=device_id)
+
+        irrigation.status = False if irrigation.status == True else True
+        irrigation.save()
+        return Response({'message': 'updated successfully!', 'pump_status': irrigation.status})

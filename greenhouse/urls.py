@@ -10,7 +10,7 @@ urlpatterns = [
     path('HumdSensor/', HumidSensorView.as_view()),
     path('LuxSensor/', LuxSensorView.as_view()),
     path('Ventilation/', VentilationView.as_view()),
-#     path('Ventilation/update/<int:ventilation_id>/', VentilationView.as_view()),
+    path('Ventilation/update/<int:device_id>/', VentilationView.as_view()),
     path('Irrigation/', IrrigationView.as_view()),
-#     path('Irrigation/update/<int:irrigation_id>/', IrrigationView.as_view()),
+    path('Irrigation/update/<int:device_id>/', IrrigationView.as_view()),
  ]
