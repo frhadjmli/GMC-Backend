@@ -1,0 +1,159 @@
+[
+{
+  "model": "greenhouse.sensor_type",
+  "pk": 1,
+  "fields": {
+    "title": "temprature",
+    "description": null
+  }
+},
+{
+  "model": "greenhouse.sensor_type",
+  "pk": 2,
+  "fields": {
+    "title": "humidity",
+    "description": null
+  }
+},
+{
+  "model": "greenhouse.sensor_type",
+  "pk": 3,
+  "fields": {
+    "title": "lux",
+    "description": null
+  }
+},
+{
+  "model": "greenhouse.point",
+  "pk": 1,
+  "fields": {
+    "point_id": "PNT-1"
+  }
+},
+{
+  "model": "greenhouse.sensor",
+  "pk": 1,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "name": "DHT11",
+    "sensor_type": 1,
+    "point": 1
+  }
+},
+{
+  "model": "greenhouse.sensor",
+  "pk": 2,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "name": "DHT11",
+    "sensor_type": 2,
+    "point": 1
+  }
+},
+{
+  "model": "greenhouse.sensor",
+  "pk": 3,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "name": "BH1750",
+    "sensor_type": 3,
+    "point": 1
+  }
+},
+{
+  "model": "greenhouse.sensor_value",
+  "pk": 1,
+  "fields": {
+    "sensor": 2,
+    "value": 50.0,
+    "recorded_time": "11:15:10",
+    "date_time": "2021-07-18"
+  }
+},
+{
+  "model": "greenhouse.sensor_value",
+  "pk": 2,
+  "fields": {
+    "sensor": 1,
+    "value": 25.0,
+    "recorded_time": "11:15:27",
+    "date_time": "2021-07-18"
+  }
+},
+{
+  "model": "greenhouse.sensor_value",
+  "pk": 3,
+  "fields": {
+    "sensor": 3,
+    "value": 1170.0,
+    "recorded_time": "11:15:48",
+    "date_time": "2021-07-18"
+  }
+},
+{
+  "model": "greenhouse.sensor_value",
+  "pk": 4,
+  "fields": {
+    "sensor": 1,
+    "value": 29.0,
+    "recorded_time": "11:16:08",
+    "date_time": "2021-07-18"
+  }
+},
+{
+  "model": "greenhouse.device_type",
+  "pk": 1,
+  "fields": {
+    "title": "fan",
+    "description": null
+  }
+},
+{
+  "model": "greenhouse.device_type",
+  "pk": 2,
+  "fields": {
+    "title": "water pump",
+    "description": null
+  }
+},
+{
+  "model": "greenhouse.device",
+  "pk": 1,
+  "fields": {
+    "device_id": "FAN-1",
+    "name": "unknown",
+    "device_type": 1,
+    "point": 1
+  }
+},
+{
+  "model": "greenhouse.device",
+  "pk": 2,
+  "fields": {
+    "device_id": "WPMP-1",
+    "name": "unknown",
+    "device_type": 2,
+    "point": 1
+  }
+},
+{
+  "model": "greenhouse.device_value",
+  "pk": 1,
+  "fields": {
+    "device": 1,
+    "status": false,
+    "recorded_time": "11:15:10",
+    "date_time": "2021-07-18"
+  }
+},
+{
+  "model": "greenhouse.device_value",
+  "pk": 2,
+  "fields": {
+    "device": 2,
+    "status": false,
+    "recorded_time": "11:15:20",
+    "date_time": "2021-07-18"
+  }
+}
+]
