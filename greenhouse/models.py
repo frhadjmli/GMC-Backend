@@ -53,77 +53,74 @@ from django.db import models
 #     def __str__(self):
 #         return f"{self.pump_id}, record {self.pk}"
 
-
-class City(models.Model):
-    title = models.CharField(max_length=50)
-
-    def __str__(self):
-        return f"{self.title}, record {self.pk}"
-
-
-class Greenhouse(models.Model):
-    name = models.CharField(max_length=100)
-    city = models.ForeignKey(City, on_delete=models.DO_NOTHING)
-    street = models.CharField(max_length=200)
-    allay = models.CharField(max_length=50)
-    post_code = models.CharField(max_length=11)
-
-    def __str__(self):
-        return f"{self.name}, record {self.pk}"
-
-
 class Sensor_type(models.Model):
     title = models.CharField(max_length=30)  # e.g : humidity, lux, temprature
-    model_name = models.CharField(max_length=50)  # e.g : dh11
-    description = models.CharField(max_length=255)
+    description = models.CharField(max_length=255, null=True)
 
     def __str__(self):
-        return f"{self.title}, record {self.pk}"
+        return f"{self.title}, record: {self.pk}"
 
 
 class Point(models.Model):
-    point_name = models.CharField(max_length=7)  # e.g : PNT-1
+    point_id = models.CharField(max_length=7)  # e.g : PNT-1
 
     def __str__(self):
-        return f"{self.point_name}, record {self.pk}"
+        return f"{self.point_id}, record: {self.pk}"
 
 
-class Sensors(models.Model):
-    name = models.CharField(max_length=50)  # e.g : HUM-1, LUX-1, TMP-1    need this?
+class Sensor(models.Model):
+    sensor_id = models.CharField(max_length=7)  # e.g : HUM-1, LUX-1, TMP-1    need this?
+    name = models.CharField(max_length=50)  # e.g : DHT11, BH1750
     sensor_type = models.ForeignKey(Sensor_type, on_delete=models.DO_NOTHING)
     point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
-    greenhouse = models.ForeignKey(Greenhouse, on_delete=models.DO_NOTHING)
 
     def __str__(self):
-        return f"{self.name}, record {self.pk}"
+        return f"{self.name}, record: {self.pk}"
 
 
 class Sensor_value(models.Model):
-    sensor_id = models.ForeignKey(Sensors, on_delete=models.DO_NOTHING)
+    sensor = models.ForeignKey(Sensor, related_name='sensor_values', on_delete=models.DO_NOTHING)
     value = models.FloatField()  # models.DecimalField( max_digits=7, decimal_places=2)  ,   models.IntegerField()
     recorded_time = models.TimeField(auto_now_add=True)
     date_time = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.name}, record {self.pk}"
+        return f"value: {self.value}, record: {self.pk} (sensor_id: {self.sensor})"
+
+
+class Alaem_message(models.Model):
+    body_text = models.CharField(max_length=255)
+    sensor = models.ForeignKey(Sensor, on_delete=models.DO_NOTHING)
+    recorded_time = models.TimeField(auto_now_add=True)
+    date_time = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.body_text[20]}, record: {self.pk}"
 
 
 class Device_type(models.Model):
     title = models.CharField(max_length=30)  # e.g : fan, pump
-    model_name = models.CharField(max_length=50)  # e.g : dh11
-    description = models.CharField(max_length=255)
-
-
-class Devices(models.Model):
-    name = models.CharField(max_length=50)  # e.g : FAN-1, WPMP-1     need this?
-    device_type = models.ForeignKey(Device_type, on_delete=models.DO_NOTHING)
-    point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
-    greenhouse = models.ForeignKey(Greenhouse, on_delete=models.DO_NOTHING)
-
-
-class Device_status(models.Model):
-    devices_id = models.ForeignKey(Devices, on_delete=models.DO_NOTHING)
-    status = models.BooleanField()
+    description = models.CharField(max_length=255, null=True)
 
     def __str__(self):
-        return f"{self.name}, record {self.pk}"
+        return f"{self.title}, record: {self.pk}"
+
+
+class Device(models.Model):
+    device_id = models.CharField(max_length=7)  # e.g : FAN-1, WPMP-1     need this?
+    name = models.CharField(max_length=50)
+    device_type = models.ForeignKey(Device_type, on_delete=models.DO_NOTHING)
+    point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
+
+    def __str__(self):
+        return f"{self.name}, record: {self.pk}"
+
+
+class Device_value(models.Model):
+    device = models.ForeignKey(Device, on_delete=models.DO_NOTHING)
+    status = models.BooleanField()
+    recorded_time = models.TimeField(auto_now_add=True)
+    date_time = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return f"status: {self.status}, record: {self.pk} ( device_id: {self.device} )"
