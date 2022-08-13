@@ -1,0 +1,19 @@
+[{
+    "model": "greenhouse.devicevalue",
+    "pk": 1,
+    "fields": {
+      "status": false,
+      "recorded_time": "17:07:31",
+      "date_time": "2021-09-10",
+      "device": 1
+    }
+  }, {
+    "model": "greenhouse.devicevalue",
+    "pk": 2,
+    "fields": {
+      "status": false,
+      "recorded_time": "13:01:49",
+      "date_time": "2022-02-28",
+      "device": 2
+    }
+  }]

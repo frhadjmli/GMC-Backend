@@ -1,0 +1,22 @@
+[{
+    "model": "greenhouse.sensortype",
+    "pk": 1,
+    "fields": {
+      "title": "Temperature",
+      "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+    }
+  }, {
+    "model": "greenhouse.sensortype",
+    "pk": 2,
+    "fields": {
+      "title": "Humidity",
+      "description": "Vestibulum rutrum rutrum neque."
+    }
+  }, {
+    "model": "greenhouse.sensortype",
+    "pk": 3,
+    "fields": {
+      "title": "Lux",
+      "description": "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti."
+    }
+  }]

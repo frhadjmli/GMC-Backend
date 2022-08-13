@@ -1,0 +1,28 @@
+[{
+  "model": "greenhouse.sensor",
+  "pk": 1,
+  "fields": {
+    "sensor_id": "TMP-1",
+    "name": "DHT11",
+    "sensor_type": 1,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.sensor",
+  "pk": 2,
+  "fields": {
+    "sensor_id": "HUM-1",
+    "name": "DHT11",
+    "sensor_type": 2,
+    "point": 1
+  }
+}, {
+  "model": "greenhouse.sensor",
+  "pk": 3,
+  "fields": {
+    "sensor_id": "LUX-1",
+    "name": "BH1750",
+    "sensor_type": 3,
+    "point": 1
+  }
+}]

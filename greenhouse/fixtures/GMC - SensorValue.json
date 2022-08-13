@@ -1,0 +1,271 @@
+[{
+    "model": "greenhouse.sensorvalue",
+    "pk": 1,
+    "fields": {
+      "value": 28.42,
+      "recorded_time": "20:03:42",
+      "date_time": "2021-09-13",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 2,
+    "fields": {
+      "value": 30.21,
+      "recorded_time": "19:03:13",
+      "date_time": "2022-01-02",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 3,
+    "fields": {
+      "value": 125.43,
+      "recorded_time": "12:41:19",
+      "date_time": "2022-03-30",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 4,
+    "fields": {
+      "value": 28.56,
+      "recorded_time": "7:19:22",
+      "date_time": "2022-07-11",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 5,
+    "fields": {
+      "value": 33.12,
+      "recorded_time": "4:25:13",
+      "date_time": "2022-01-22",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 6,
+    "fields": {
+      "value": 150.75,
+      "recorded_time": "1:45:10",
+      "date_time": "2021-08-17",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 7,
+    "fields": {
+      "value": 29.15,
+      "recorded_time": "18:29:22",
+      "date_time": "2022-07-25",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 8,
+    "fields": {
+      "value": 32.87,
+      "recorded_time": "10:45:11",
+      "date_time": "2021-09-10",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 9,
+    "fields": {
+      "value": 239.83,
+      "recorded_time": "5:47:36",
+      "date_time": "2022-05-15",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 10,
+    "fields": {
+      "value": 29.19,
+      "recorded_time": "5:37:57",
+      "date_time": "2022-01-12",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 11,
+    "fields": {
+      "value": 34.78,
+      "recorded_time": "1:25:33",
+      "date_time": "2022-02-19",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 12,
+    "fields": {
+      "value": 186.54,
+      "recorded_time": "22:48:14",
+      "date_time": "2022-08-04",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 13,
+    "fields": {
+      "value": 30.16,
+      "recorded_time": "14:24:05",
+      "date_time": "2022-06-16",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 14,
+    "fields": {
+      "value": 34.26,
+      "recorded_time": "7:33:24",
+      "date_time": "2022-07-11",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 15,
+    "fields": {
+      "value": 551.23,
+      "recorded_time": "3:01:19",
+      "date_time": "2021-09-27",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 16,
+    "fields": {
+      "value": 30.76,
+      "recorded_time": "14:34:57",
+      "date_time": "2021-11-28",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 17,
+    "fields": {
+      "value": 31.78,
+      "recorded_time": "2:58:21",
+      "date_time": "2021-09-16",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 18,
+    "fields": {
+      "value": 643.89,
+      "recorded_time": "17:17:29",
+      "date_time": "2022-04-23",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 19,
+    "fields": {
+      "value": 31.18,
+      "recorded_time": "21:45:47",
+      "date_time": "2022-05-11",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 20,
+    "fields": {
+      "value": 33.17,
+      "recorded_time": "19:03:55",
+      "date_time": "2022-08-11",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 21,
+    "fields": {
+      "value": 432.27,
+      "recorded_time": "16:37:04",
+      "date_time": "2021-09-15",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 22,
+    "fields": {
+      "value": 32.56,
+      "recorded_time": "23:47:04",
+      "date_time": "2022-03-24",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 23,
+    "fields": {
+      "value": 33.44,
+      "recorded_time": "10:16:13",
+      "date_time": "2022-08-11",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 24,
+    "fields": {
+      "value": 448.97,
+      "recorded_time": "2:05:05",
+      "date_time": "2022-01-26",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 25,
+    "fields": {
+      "value": 31.89,
+      "recorded_time": "22:16:59",
+      "date_time": "2021-09-16",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 26,
+    "fields": {
+      "value": 37.71,
+      "recorded_time": "11:48:30",
+      "date_time": "2022-03-05",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 27,
+    "fields": {
+      "value": 1023.56,
+      "recorded_time": "11:57:31",
+      "date_time": "2021-09-14",
+      "sensor": 3
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 28,
+    "fields": {
+      "value": 33.67,
+      "recorded_time": "0:59:31",
+      "date_time": "2021-09-03",
+      "sensor": 1
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 29,
+    "fields": {
+      "value": 33.42,
+      "recorded_time": "10:17:15",
+      "date_time": "2021-11-30",
+      "sensor": 2
+    }
+  }, {
+    "model": "greenhouse.sensorvalue",
+    "pk": 30,
+    "fields": {
+      "value": 1120.75,
+      "recorded_time": "20:25:34",
+      "date_time": "2021-12-23",
+      "sensor": 3
+    }
+  }]

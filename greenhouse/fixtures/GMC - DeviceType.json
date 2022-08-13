@@ -1,0 +1,15 @@
+[{
+    "model": "greenhouse.devicetype",
+    "pk": 1,
+    "fields": {
+      "title": "Ventilation",
+      "description": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+    }
+  }, {
+    "model": "greenhouse.devicetype",
+    "pk": 2,
+    "fields": {
+      "title": "Irrigation",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+    }
+  }]

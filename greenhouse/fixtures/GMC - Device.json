@@ -1,0 +1,19 @@
+[{
+    "model": "greenhouse.device",
+    "pk": 1,
+    "fields": {
+      "device_id": "FAN-1",
+      "name": "Fan",
+      "device_type": 1,
+      "point": 1
+    }
+  }, {
+    "model": "greenhouse.device",
+    "pk": 2,
+    "fields": {
+      "device_id": "WPMP-1",
+      "name": "Pump",
+      "device_type": 2,
+      "point": 1
+    }
+  }]
