@@ -124,6 +124,9 @@ class SensorValueView(APIView):
 
 class TempSensorView(APIView):
     def get(self, request, *arg, **kwargs):
+        """
+
+        """
         qs = Sensor_value.objects.select_related('sensor').select_related('point_id').select_related('sensor_type_id') \
             .filter(sensor_id__sensor_type_id=1) \
             .annotate(sensor_Id=F('sensor_id__sensor_id'), sensor_type=F('sensor_id__sensor_type__title'),
@@ -132,18 +135,18 @@ class TempSensorView(APIView):
 
         return Response(list(qs))
 
-    # def post(self, request):
-    #     temperature = TempSensor.objects.create(
-    #         sensor_id = request.data.get('sensor_id'),
-    #         temp_value = request.data.get('temp_value'),
-    #         recorded_time = request.data.get('current_time'),
-    #         date_time = request.data.get('current_date'),
-    #         point = Point.objects.get(id=request.data.get('point_id')),
-    #     )
-    #     return Response({
-    #         'Message':f"New Temperature({temperature.temp_value}) Registered"},
-    #         status=status.HTTP_201_CREATED
-    #     )
+    def post(self, request):
+        # sensor_id -> TMP-1 : 1 , HUM-1 : 2 , LUX-1: 3   check value in database (table: greenhouse_sensor)
+        temperature = Sensor_value.objects.create(
+            sensor=get_object_or_404(Sensor, id=request.data.get('sensor_id')),
+            value=request.data.get('temp_value'),
+            # recorded_time=request.data.get('current_time'),  # define auto_now_add
+            # date_time=request.data.get('current_date'),  # define auto_now_add
+        )
+        return Response({
+            'Message': f"New Temperature({temperature.value}) Registered"},
+            status=status.HTTP_201_CREATED
+        )
 
 
 class HumidSensorView(APIView):
