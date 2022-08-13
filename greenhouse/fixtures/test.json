@@ -3,7 +3,7 @@
   "model": "greenhouse.sensor_type",
   "pk": 1,
   "fields": {
-    "title": "temprature",
+    "title": "temperature",
     "description": null
   }
 },
