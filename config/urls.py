@@ -18,10 +18,12 @@ from django.urls import path, include
 
 from rest_framework.authtoken.views import obtain_auth_token
 from account.views import LogoutAPIView
+import debug_toolbar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', obtain_auth_token),
     path('logout/', LogoutAPIView.as_view()),
     path('', include('greenhouse.urls')),
+    path('__debug__/', include(debug_toolbar.urls)),
 ]
