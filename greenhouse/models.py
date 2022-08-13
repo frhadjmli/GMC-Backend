@@ -81,8 +81,8 @@ class Sensor(models.Model):
 class Sensor_value(models.Model):
     sensor = models.ForeignKey(Sensor, related_name='sensor_values', on_delete=models.DO_NOTHING)
     value = models.FloatField()  # models.DecimalField( max_digits=7, decimal_places=2)  ,   models.IntegerField()
-    recorded_time = models.TimeField(auto_now_add=True)
-    date_time = models.DateField(auto_now_add=True)
+    recorded_time = models.TimeField()
+    date_time = models.DateField()
 
     def __str__(self):
         return f"value: {self.value}, record: {self.pk} (sensor_id: {self.sensor})"
@@ -91,8 +91,8 @@ class Sensor_value(models.Model):
 class Alarm_message(models.Model):
     body_text = models.CharField(max_length=255)
     sensor = models.ForeignKey(Sensor, on_delete=models.DO_NOTHING)
-    recorded_time = models.TimeField(auto_now_add=True)
-    date_time = models.DateField(auto_now_add=True)
+    recorded_time = models.TimeField()
+    date_time = models.DateField()
 
     def __str__(self):
         return f"{self.body_text[20]}, record: {self.pk}"
@@ -119,8 +119,8 @@ class Device(models.Model):
 class Device_value(models.Model):
     device = models.ForeignKey(Device, on_delete=models.DO_NOTHING)
     status = models.BooleanField()
-    recorded_time = models.TimeField(auto_now_add=True)
-    date_time = models.DateField(auto_now_add=True)
+    recorded_time = models.TimeField()
+    date_time = models.DateField()
 
     def __str__(self):
         return f"status: {self.status}, record: {self.pk} ( device_id: {self.device} )"
