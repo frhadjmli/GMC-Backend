@@ -47,9 +47,11 @@ INSTALLED_APPS = [
     
     'channels',
     'django_eventstream',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
 
     'corsheaders.middleware.CorsMiddleware',
@@ -161,3 +163,6 @@ CORS_ALLOW_ALL_ORIGINS = True
 #                                                           # for production, use redis instead
 #     }
 # }
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
