@@ -88,7 +88,7 @@ class Sensor_value(models.Model):
         return f"value: {self.value}, record: {self.pk} (sensor_id: {self.sensor})"
 
 
-class Alaem_message(models.Model):
+class Alarm_message(models.Model):
     body_text = models.CharField(max_length=255)
     sensor = models.ForeignKey(Sensor, on_delete=models.DO_NOTHING)
     recorded_time = models.TimeField(auto_now_add=True)
