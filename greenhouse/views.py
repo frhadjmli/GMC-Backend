@@ -45,12 +45,12 @@ class TempSensorView(APIView):
         return Response(list(qs))
 
     def post(self, request):
-        # sensor_id -> TMP-1 : 1 , HUM-1 : 2 , LUX-1: 3   check value in database (table: greenhouse_sensor)
+        # sensor_id -> TMP-1 : 1 , HUM-1 : 2 , LUX-1: 3 
         temperature = SensorValue.objects.create(
             sensor=get_object_or_404(Sensor, id=request.data.get('sensor_id')),
             value=request.data.get('temp_value'),
-            # recorded_time=request.data.get('current_time'),  # define auto_now_add
-            # date_time=request.data.get('current_date'),  # define auto_now_add
+            recorded_time=request.data.get('current_time'), 
+            date_time=request.data.get('current_date'),  
         )
         return Response({
             'Message': f"New Temperature({temperature.value}) Registered"},
@@ -68,18 +68,18 @@ class HumidSensorView(APIView):
 
         return Response(list(qs))
 
-    # def post(self, request):
-    #     humidity = HumdSensor.objects.create(
-    #         sensor_id = request.data.get('sensor_id'),
-    #         humd_value = request.data.get('humd_value'),
-    #         recorded_time = request.data.get('current_time'),
-    #         date_time = request.data.get('current_date'),
-    #         point = Point.objects.get(id=request.data.get('point_id')),
-    #     )
-    #     return Response({
-    #         'Message':f"New Humidity({humidity.humd_value}) Registered"},
-    #         status=status.HTTP_201_CREATED
-    #     )
+    def post(self, request):
+        # sensor_id -> TMP-1 : 1 , HUM-1 : 2 , LUX-1: 3 
+        temperature = SensorValue.objects.create(
+            sensor=get_object_or_404(Sensor, id=request.data.get('sensor_id')),
+            value=request.data.get('temp_value'),
+            recorded_time=request.data.get('current_time'), 
+            date_time=request.data.get('current_date'),  
+        )
+        return Response({
+            'Message': f"New Temperature({temperature.value}) Registered"},
+            status=status.HTTP_201_CREATED
+        )
 
 
 class LuxSensorView(APIView):
@@ -92,18 +92,18 @@ class LuxSensorView(APIView):
 
         return Response(list(qs))
 
-    # def post(self, request):
-    #     lux = LuxSensor.objects.create(
-    #         sensor_id = request.data.get('sensor_id'),
-    #         lux_value = request.data.get('lux_value'),
-    #         recorded_time = request.data.get('current_time'),
-    #         date_time = request.data.get('current_date'),
-    #         point = Point.objects.get(id=request.data.get('point_id')),
-    #     )
-    #     return Response({
-    #         'Message':f"New Lux({lux.lux_value}) Registered"},
-    #         status=status.HTTP_201_CREATED
-    #         )
+    def post(self, request):
+        # sensor_id -> TMP-1 : 1 , HUM-1 : 2 , LUX-1: 3 
+        temperature = SensorValue.objects.create(
+            sensor=get_object_or_404(Sensor, id=request.data.get('sensor_id')),
+            value=request.data.get('temp_value'),
+            recorded_time=request.data.get('current_time'), 
+            date_time=request.data.get('current_date'),  
+        )
+        return Response({
+            'Message': f"New Temperature({temperature.value}) Registered"},
+            status=status.HTTP_201_CREATED
+        )
 
 
 class VentilationView(APIView):
