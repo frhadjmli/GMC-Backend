@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from django.db.models import F
-from .models import Sensor, SensorType, SensorValue, DeviceValue
+from .models import Sensor, AlarmMessage, SensorValue, DeviceValue
 
 
 @api_view(['GET'])
@@ -60,3 +60,10 @@ class DeviceValueInfoView(APIView):
         item.status = False if item.status == True else True
         item.save()
         return Response({'message': 'updated successfully!', 'status': item.status, 'device_id': item.device_id})
+
+
+class AlarmMessageView(APIView):
+    def get(self, request):
+        qs = AlarmMessage.objects.all().values()
+
+        return Response(list(qs))

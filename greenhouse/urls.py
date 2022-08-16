@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import SensorValueInfoView, DeviceValueInfoView
+from .views import SensorValueInfoView, DeviceValueInfoView, AlarmMessageView
 
 urlpatterns = [
     path('SensorValueInfo/<int:sensor_type_id>/', SensorValueInfoView.as_view()),
@@ -7,4 +7,6 @@ urlpatterns = [
 
     path('DeviceValueInfo/<int:device_type_id>/', DeviceValueInfoView.as_view()),
     path('DeviceValueInfo/update/<int:device_id>/', DeviceValueInfoView.as_view()),
+
+    path('AlarmMessage/', AlarmMessageView.as_view())
  ]
