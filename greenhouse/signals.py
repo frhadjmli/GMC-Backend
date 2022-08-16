@@ -61,3 +61,18 @@ def send_alarm(sender, instance, created, **kwargs):
                 'recorded_time': str(instance.recorded_time),
                 'date_time': str(instance.date_time),
                 })
+
+@receiver(post_save, sender=DeviceValue)
+def send_device_status(sender, instance, created, update_fields, **kwargs):
+    
+    device = get_object_or_404(Device, id=instance.device_id)
+    if device.device_id[:3] == 'FAN':
+        send_event('data_controlling', 'fan_status', {
+            'status': instance.status,
+            'device_ref': instance.device_id
+        })
+    elif device.device_id[:4] == 'WPMP':
+        send_event('data_controlling', 'pump_status', {
+            'status': instance.status,
+            'device_ref': instance.device_id
+        })
