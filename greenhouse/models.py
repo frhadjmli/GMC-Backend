@@ -64,3 +64,12 @@ class DeviceValue(models.Model):
 
     def __str__(self):
         return f"status: {self.status}, record: {self.pk} ( device_id: {self.device} )"
+
+
+class SensorTypeRange(models.Model):
+    min_range = models.IntegerField()
+    max_range = models.IntegerField()
+    sensor_type = models.ForeignKey(SensorType, on_delete=models.DO_NOTHING)
+
+    def __str__(self):
+        return f"record: {self.pk}, min_range: {self.min_range}, max_range: {self.max_range} ( sensor_type: {self.sensor_type} )"
