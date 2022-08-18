@@ -5,6 +5,8 @@ from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from django.db.models import F
 from .models import Sensor, AlarmMessage, SensorValue, DeviceValue
+from persiantools.jdatetime import JalaliDate
+from datetime import datetime
 
 
 @api_view(['GET'])
@@ -56,8 +58,9 @@ class DeviceValueInfoView(APIView):
     def put(self, request, device_id):
         # device_id -> FAN-1 : 1 , WPMP-1 : 2
         item = get_object_or_404(DeviceValue, device=device_id)
-
         item.status = False if item.status == True else True
+        item.date_time = str(JalaliDate.today())
+        item.recorded_time = (datetime.now()).strftime('%H:%M:%S')
         item.save()
         return Response({'message': 'updated successfully!', 'status': item.status, 'device_id': item.device_id})
 
