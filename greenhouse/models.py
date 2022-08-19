@@ -36,6 +36,7 @@ class AlarmMessage(models.Model):
     sensor = models.ForeignKey(Sensor, on_delete=models.DO_NOTHING)
     recorded_time = models.TimeField()
     date_time = models.DateField()
+    is_seen = models.BooleanField(default=False, null=True, blank=True)  # later remove ,null=True,blank=True
 
     def __str__(self):
         return f"{self.body_text[:12]+' ...'}, record: {self.pk}"
