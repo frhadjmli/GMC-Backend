@@ -46,3 +46,4 @@ urllib3==1.26.11
 Werkzeug==2.0.3
 zope.interface==5.4.0
 django-debug-toolbar==3.5.0
+persiantools==3.0.1
