@@ -5,7 +5,7 @@ from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from rest_framework.generics import UpdateAPIView
 from django.db.models import F
-from .models import Sensor, AlarmMessage, SensorValue, DeviceValue
+from .models import Sensor, AlarmMessage, SensorValue, DeviceValue, Device
 from persiantools.jdatetime import JalaliDate
 from datetime import datetime
 
@@ -82,3 +82,12 @@ class AlarmMessageIsSeenView(APIView):
         qs = AlarmMessage.objects.filter(is_seen=False).values()
 
         return Response(list(qs))
+
+
+class CountSensorDeviceView(APIView):
+    def get(self, request):
+        device_count = Device.objects.all().count()
+        sensor_count = Sensor.objects.all().count()
+
+        return Response({'device_count': device_count, 'sensor_count': sensor_count})
+
