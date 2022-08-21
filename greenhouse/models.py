@@ -70,7 +70,7 @@ class DeviceValue(models.Model):
 class SensorTypeRange(models.Model):
     min_range = models.IntegerField()
     max_range = models.IntegerField()
-    sensor_type = models.ForeignKey(SensorType, on_delete=models.DO_NOTHING)
+    sensor_type = models.OneToOneField(SensorType, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return f"record: {self.pk}, min_range: {self.min_range}, max_range: {self.max_range} ( sensor_type: {self.sensor_type} )"
