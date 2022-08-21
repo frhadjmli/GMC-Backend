@@ -3,9 +3,9 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
-from rest_framework.generics import UpdateAPIView
+from .serializers import SensorTypeRangeSerializer
 from django.db.models import F
-from .models import Sensor, AlarmMessage, SensorValue, DeviceValue, Device
+from .models import Sensor, AlarmMessage, SensorValue, DeviceValue, Device, SensorTypeRange
 from persiantools.jdatetime import JalaliDate
 from datetime import datetime
 
@@ -91,3 +91,23 @@ class CountSensorDeviceView(APIView):
 
         return Response({'device_count': device_count, 'sensor_count': sensor_count})
 
+
+class SensorTypeRangeView(APIView):
+    def get(self, request):
+        qs = SensorTypeRange.objects.select_related('sensor_type').annotate(title=F('sensor_type__title')).values()
+
+        return Response(list(qs))
+
+    def put(self, request, sensor_type_range_id):
+        sensor_type_range = get_object_or_404(SensorTypeRange, id=sensor_type_range_id)
+        serializer = SensorTypeRangeSerializer(
+            instance=sensor_type_range,
+            data=request.data,
+            partial=True
+        )
+
+        if serializer.is_valid():
+            serializer.save()
+            return Response({'message': 'updated successfully!', 'data': serializer.data})
+
+        return Response({'message': serializer.errors})
