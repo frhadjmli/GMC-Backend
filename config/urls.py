@@ -24,6 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', obtain_auth_token),
     path('logout/', LogoutAPIView.as_view()),
-    path('', include('greenhouse.urls')),
+    path('api/', include('greenhouse.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
 ]
