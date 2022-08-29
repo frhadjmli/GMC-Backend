@@ -8,7 +8,7 @@ from django.db.models import F
 from .models import Sensor, AlarmMessage, SensorValue, DeviceValue, Device, SensorTypeRange
 from persiantools.jdatetime import JalaliDate
 from datetime import datetime
-
+from rest_framework.permissions import IsAdminUser
 
 @api_view(['GET'])
 def get_routes(request):
@@ -93,6 +93,8 @@ class CountSensorDeviceView(APIView):
 
 
 class SensorTypeRangeView(APIView):
+    permission_classes = (IsAdminUser,)
+
     def get(self, request):
         qs = SensorTypeRange.objects.select_related('sensor_type').annotate(title=F('sensor_type__title')).values()
 
