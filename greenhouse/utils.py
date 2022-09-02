@@ -1,5 +1,6 @@
 from django.db.models import F
-from .models import Sensor, AlarmMessage, SensorTypeRange
+from .models import SensorValue, AlarmMessage, SensorTypeRange
+from django.http import Http404
 
 
 def retrive_renge_val():
@@ -20,11 +21,25 @@ def detect_alarm(range_val, instance, message=""):
 
     if instance.value < range_val[0]:
         message = message + "کم تر از حد مجاز"
-        AlarmMessage.objects.create(body_text=message, sensor=Sensor.objects.get(id=instance.sensor_id),
-                                    recorded_time=instance.recorded_time, date_time=instance.date_time)
+        print("AlarmMessage.objects.create(body_text=message, sensorValue=SensorValue.objects.get(id=instance.id))")
+        AlarmMessage.objects.create(body_text=message, sensorValue=SensorValue.objects.get(id=instance.id))
 
     elif instance.value > range_val[1]:
         message = message + "بیشتر تر از حد مجاز"
-        AlarmMessage.objects.create(body_text=message, sensor=Sensor.objects.get(id=instance.sensor_id),
-                                    recorded_time=instance.recorded_time, date_time=instance.date_time)
+        AlarmMessage.objects.create(body_text=message, sensorValue=SensorValue.objects.get(id=instance.id))
     return
+
+
+def get_extra_data_from_alarm_message(alarm_message_id):
+
+    qs = AlarmMessage.objects.select_related('sensorValue').select_related('sensor').filter(id=alarm_message_id). \
+        annotate(sensor_id=F('sensorValue_id__sensor_id__sensor_id'),
+                 recorded_time=F('sensorValue_id__recorded_time'),
+                 date_time=F('sensorValue_id__date_time')).values()
+    qs = list(qs)
+    if len(qs) == 0:
+        raise Http404(
+            "No matches the given query."
+        )
+
+    return qs[0]
