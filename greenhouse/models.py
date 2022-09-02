@@ -20,11 +20,11 @@ class Sensor(models.Model):
     point = models.ForeignKey(Point, on_delete=models.DO_NOTHING)
 
     def __str__(self):
-        return f"{self.name}, record: {self.pk}"
+        return f"{self.name}, type: {self.sensor_type.title}, record: {self.pk} "
 
 class SensorValue(models.Model):
     sensor = models.ForeignKey(Sensor, related_name='sensor_values', on_delete=models.DO_NOTHING)
-    value = models.FloatField()  # models.DecimalField( max_digits=7, decimal_places=2)  ,   models.IntegerField()
+    value = models.FloatField()
     recorded_time = models.TimeField()
     date_time = models.DateField()
 
