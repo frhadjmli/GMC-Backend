@@ -21,7 +21,6 @@ def detect_alarm(range_val, instance, message=""):
 
     if instance.value < range_val[0]:
         message = message + "کم تر از حد مجاز"
-        print("AlarmMessage.objects.create(body_text=message, sensorValue=SensorValue.objects.get(id=instance.id))")
         AlarmMessage.objects.create(body_text=message, sensorValue=SensorValue.objects.get(id=instance.id))
 
     elif instance.value > range_val[1]:
