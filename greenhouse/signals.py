@@ -15,7 +15,8 @@ def send_data_sensor_value(sender, instance, created, **kwargs):
             send_event('data_monitoring', 'temp_update', {
                 'value': instance.value,
                 'id': instance.id,
-                'recorded_time': str(instance.recorded_time)
+                'recorded_time': str(instance.recorded_time),
+                'date_time': str(instance.date_time)
                 })
             detect_alarm(range_value['Temperature'], instance, message="دما ")
 
@@ -23,7 +24,8 @@ def send_data_sensor_value(sender, instance, created, **kwargs):
             send_event('data_monitoring', 'humd_update', {
                 'value': instance.value,
                 'id': instance.id,
-                'recorded_time': str(instance.recorded_time)
+                'recorded_time': str(instance.recorded_time),
+                'date_time': str(instance.date_time)
                 })
             detect_alarm(range_value['Humidity'], instance, message="رطوبت ")
 
@@ -31,7 +33,8 @@ def send_data_sensor_value(sender, instance, created, **kwargs):
             send_event('data_monitoring', 'lux_update', {
                 'value': instance.value,
                 'id': instance.id,
-                'recorded_time': str(instance.recorded_time)
+                'recorded_time': str(instance.recorded_time),
+                'date_time': str(instance.date_time)
                 })
             detect_alarm(range_value['Lux'], instance, message="شدت نور ")
 
