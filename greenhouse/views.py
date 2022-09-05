@@ -68,7 +68,11 @@ class DeviceValueInfoView(APIView):
 
 class AlarmMessageView(APIView):
     def get(self, request):
-        qs = AlarmMessage.objects.all().values()
+        qs = AlarmMessage.objects.select_related('sensorValue'). \
+            annotate(sensor_id=F('sensorValue_id__sensor_id'),
+                     value=F('sensorValue_id__value'),
+                     recorded_time=F('sensorValue_id__recorded_time'),
+                     date_time=F('sensorValue_id__date_time')).values()
 
         return Response(list(qs))
 
@@ -79,7 +83,10 @@ class AlarmMessageView(APIView):
 
 class AlarmMessageIsSeenView(APIView):
     def get(self, request):
-        qs = AlarmMessage.objects.filter(is_seen=False).values()
+        qs = AlarmMessage.objects.select_related('sensorValue').filter(is_seen=False) \
+            .annotate(value=F('sensorValue_id__value'),
+                      recorded_time=F('sensorValue_id__recorded_time'),
+                      date_time=F('sensorValue_id__date_time')).values()
 
         return Response(list(qs))
 
