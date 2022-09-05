@@ -63,7 +63,12 @@ class DeviceValueInfoView(APIView):
         item.date_time = str(JalaliDate.today())
         item.recorded_time = (datetime.now()).strftime('%H:%M:%S')
         item.save()
-        return Response({'message': 'updated successfully!', 'status': item.status, 'device_id': item.device_id})
+        return Response({'message': 'updated successfully!',
+                         'status': item.status,
+                         'device_id': item.device_id,
+                         'date_time': item.date_time,
+                         'recorded_time': item.recorded_time
+                         })
 
 
 class AlarmMessageView(APIView):
