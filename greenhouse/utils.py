@@ -19,11 +19,11 @@ def retrive_renge_val():
 
 def detect_alarm(range_val, instance, message=""):
 
-    if instance.value < range_val[0]:
+    if float(instance.value) < range_val[0]:
         message = message + "کم تر از حد مجاز"
         AlarmMessage.objects.create(body_text=message, sensorValue=SensorValue.objects.get(id=instance.id))
 
-    elif instance.value > range_val[1]:
+    elif float(instance.value) > range_val[1]:
         message = message + "بیشتر تر از حد مجاز"
         AlarmMessage.objects.create(body_text=message, sensorValue=SensorValue.objects.get(id=instance.id))
     return
