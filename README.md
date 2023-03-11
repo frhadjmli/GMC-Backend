@@ -1,9 +1,10 @@
-# HGMC-Backend
-Hydroponic Greenhouse Monitoring and Controlling - Backend
-
-## TO-DO :
-
-- [X] add temp,humd,lux signals
-- [X] override asgi.py to change server runtime mode
-- [X] make time format like: "H:m:s" e.g : 14:55:25
-- [X] re-design models in models.py  
+# GMC-Backend
+  Greenhouse Monitoring and Controlling - Backend <br><br>
+  Handling data sent from raspberry pi in the greenhouse, processing datas and send it to front using APIs.<br>
+  Techs included:<br> 
+  - Django
+  - PostgreSQL<br>
+  
+  Programing concepts:<br>
+  - API 
+  - SSE (Server Sent Events)<br>
