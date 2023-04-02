@@ -12,6 +12,11 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 
+import environ
+# Initialise environment variables
+env = environ.Env()
+environ.Env.read_env()
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,12 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-uk&c5zkb5=)o6o!oyzhc-zeorep3#(8ipof&4z4h99!m0pvcux'
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.1.102']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -69,9 +74,9 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
         'rest_framework.authentication.SessionAuthentication',
     ],
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
-    ]
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.IsAuthenticated',
+    # ]
 }
 
 ROOT_URLCONF = 'config.urls'
@@ -102,9 +107,9 @@ ASGI_APPLICATION = 'config.asgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'hgmc_db',
-       'USER': 'postgres',
-       'PASSWORD': 'oathkeeper',
+       'NAME': env('DATABASE_NAME'),
+       'USER': env('DATABASE_USER'), 
+       'PASSWORD': env('DATABASE_PASS'),
        'HOST': '127.0.0.1',
        'PORT': '5432',
    }
@@ -169,4 +174,4 @@ INTERNAL_IPS = [
 
 EVENTSTREAM_ALLOW_ORIGIN = '*'
 EVENTSTREAM_ALLOW_CREDENTIALS = True
-EVENTSTREAM_ALLOW_HEADERS = 'Authorization'
+# EVENTSTREAM_ALLOW_HEADERS = 'Authorization'
