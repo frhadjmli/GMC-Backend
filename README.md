@@ -8,3 +8,5 @@
   Programing concepts:<br>
   - API 
   - SSE (Server Sent Events)<br>
+
+  for more info read the <a href="https://github.com/frhadjmli/HGMC-Backend/raw/main/GMC_Doc_Jamali_Shahbaghi.pdf" target="_blank">document of the project.</a>
